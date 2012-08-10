@@ -1,0 +1,34 @@
+#ifndef __LOG_STRAP_H__
+#define __LOG_STRAP_H__
+
+#include <cetty/log/codec/UniLogDecoder.h>
+#include <cetty/log/codec/UniLogEncoder.h>
+#include <string>
+
+namespace cetty {
+namespace log {
+
+using namespace cetty::log::codec;
+
+class LogStrap {
+public:
+    LogStrap() {}
+    ~LogStrap() {}
+
+    void logMain(int argc, char** argv);
+
+    void tailLoop(const std::string& filename,int logType,const std::string& host,
+                  unsigned long port, unsigned int timeout, const std::string& category, bool debug,const std::string& log);
+    //to get the configuration of logs and filters
+    void initConf(int logType);
+    void handleLog(int logType,const std::string& srcMsg,std::string& destMsg);
+
+private:
+    UniLogDecoder decoder;
+    UniLogEncoder encoder;
+};
+
+}
+}
+
+#endif

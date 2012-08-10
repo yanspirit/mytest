@@ -1,0 +1,14 @@
+﻿Build started 2012/8/7 17:19:13.
+     1>Project "E:\code\opensource\logsys\logsys.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "E:\code\opensource\opensource\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\logsys.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./include /ZI /nologo /W3 /WX- /Od /Oy- /GL /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt logsys.cpp src\config\ConfigParser.cpp
+     1>cl : Command line error D8016: '/ZI' and '/GL' command-line options are incompatible
+     1>Done Building Project "E:\code\opensource\logsys\logsys.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.78

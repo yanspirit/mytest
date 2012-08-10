@@ -1,0 +1,35 @@
+#include <cetty/log/LogStrap.h>
+#include <cetty/log/type.h>
+
+
+
+namespace cetty{namespace log{
+    using namespace cetty::log::config;
+    using namespace cetty::log::codec;
+
+    void LogStrap::getLogType()
+    {
+
+    }
+    void LogStrap::initConf(int logType)
+    {
+         logConfigParser.parseConfig(logType);
+         filterConfigParser.parseConfig(logType);
+
+    }
+
+    void LogStrap::handleLog(std::string msg,int logType)
+    {
+        UniLog logObj;
+        //decoder
+        decoder(msg,logType,&logObj);
+        //filters
+
+
+        //encoder
+
+        //send
+    }
+
+
+} }

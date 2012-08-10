@@ -1,0 +1,111 @@
+#ifndef __UNILOG_H__
+#define __UNILOG_H__
+
+namespace cetty{namespace log{namespace data{
+
+    class UniLog
+    {
+    public:
+        UniLog():pid(0),lineno(0),logDetail(0)
+        {
+
+        }
+        virtual UniLog(){}
+
+
+        std::string getPri()
+        {
+            return pri;
+        }
+
+        void setPri(std::string pri)
+        {
+            pri = pri;
+        }
+
+
+        std::string getTime()
+        {
+            return time;
+        }
+
+        void setTime(std::string pri)
+        {
+            time = time;
+        }
+
+
+        std::string getHost()
+        {
+            return host;
+        }
+
+        void setHost(std::string host)
+        {
+            host = host;
+        }
+
+
+        int getPid()
+        {
+            return pid;
+        }
+
+        void setPid(int pid)
+        {
+            pid = pid;
+        }
+        std::string getSource()
+        {
+            return source;
+        }
+
+        void setSource(std::string source)
+        {
+            source = source;
+        }
+
+
+        std::string getFilename()
+        {
+            return source;
+        }
+
+        void setFilename(std::string filename)
+        {
+            filename = filename;
+        }
+
+        int getLineno()
+        {
+            return lineno;
+        }
+
+        void setLineno(int lineno)
+        {
+            lineno = lineno;
+        }
+
+        LogDetail* getLogDetail()
+        {
+            return logDetail;
+        }
+
+        void setLogDetail(LogDetail* logDetail)
+        {
+            logDetail = logDetail;
+        }
+
+    private:
+        std::string pri;
+        //struct tm  time;
+        std::string time;
+        std::string host;
+        int pid;
+        std::string source;
+        std::string filename;
+        int lineno;
+        LogDetail*  logDetail;
+    };
+}}}
+#endif //_9514f998_0f76_4fd6_9f13_73d29fb58a59__UNIFIEDLOG_H__

@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../lib/liblog.a  CMakeFiles/log.dir/cetty/log/LogStrap.cpp.o CMakeFiles/log.dir/cetty/log/codec/UniLogDecoder.cpp.o CMakeFiles/log.dir/cetty/log/codec/UniLogEncoder.cpp.o CMakeFiles/log.dir/cetty/log/data/UniLog.cpp.o CMakeFiles/log.dir/cetty/log/scribeUtils/scribe_log.cpp.o CMakeFiles/log.dir/cetty/log/scribeUtils/scribe_tail.cpp.o CMakeFiles/log.dir/cetty/log/scribeUtils/scribe_wrapper.cpp.o CMakeFiles/log.dir/cetty/log/config/FilterConfigParser.cpp.o CMakeFiles/log.dir/cetty/log/config/LogConfigParser.cpp.o
+/usr/bin/ranlib ../lib/liblog.a

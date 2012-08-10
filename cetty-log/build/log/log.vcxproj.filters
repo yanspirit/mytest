@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\data">
+      <UniqueIdentifier>{89e07a51-d613-4705-81ef-5e70b70f04d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\filter">
+      <UniqueIdentifier>{19dbd299-1ec4-4a9f-be6f-f57b2acf3c5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\config">
+      <UniqueIdentifier>{f7aea28a-10cb-4249-a9dc-be9e86cbccdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scribeUtils">
+      <UniqueIdentifier>{0cc0ad74-84fe-4aef-ab3f-a25ebf46ceec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\codec">
+      <UniqueIdentifier>{c0b1e116-25f5-4804-bb94-230c6cc8b1a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\cetty\log\data\LogDetail.h">
+      <Filter>Source Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\data\NginxLogDetail.h">
+      <Filter>Source Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\data\POIDetail.h">
+      <Filter>Source Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\data\SyslogDetail.h">
+      <Filter>Source Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\data\UniLog.h">
+      <Filter>Source Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\data\VarnishLogDetail.h">
+      <Filter>Source Files\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\filter\FieldFilter.h">
+      <Filter>Source Files\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\filter\HostFilter.h">
+      <Filter>Source Files\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\filter\PriFilter.h">
+      <Filter>Source Files\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\filter\SourceFilter.h">
+      <Filter>Source Files\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\filter\TimeFilter.h">
+      <Filter>Source Files\filter</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\config\FilterConfigParser.h">
+      <Filter>Source Files\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\config\LogConfigParser.h">
+      <Filter>Source Files\config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\codec\UniLogDecoder.h">
+      <Filter>Source Files\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\codec\UniLogEncoder.h">
+      <Filter>Source Files\codec</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\scribeUtils\common.h">
+      <Filter>Source Files\scribeUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\scribeUtils\scribe_log.h">
+      <Filter>Source Files\scribeUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\scribeUtils\scribe_tail.h">
+      <Filter>Source Files\scribeUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\scribeUtils\scribe_wrapper.h">
+      <Filter>Source Files\scribeUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\LogStrap.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cetty\log\type.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\cetty\log\config\FilterConfigParser.cpp">
+      <Filter>Source Files\config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cetty\log\config\LogConfigParser.cpp">
+      <Filter>Source Files\config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cetty\log\codec\UniLogDecoder.cpp">
+      <Filter>Source Files\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cetty\log\codec\UniLogEncoder.cpp">
+      <Filter>Source Files\codec</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cetty\log\scribeUtils\scribe_log.cpp">
+      <Filter>Source Files\scribeUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cetty\log\scribeUtils\scribe_tail.cpp">
+      <Filter>Source Files\scribeUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cetty\log\scribeUtils\scribe_wrapper.cpp">
+      <Filter>Source Files\scribeUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cetty\log\LogStrap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cetty\log\data\UniLog.cpp">
+      <Filter>Source Files\data</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

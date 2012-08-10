@@ -1,0 +1,1 @@
+/usr/bin/c++     -fPIC CMakeFiles/logTest.dir/logTest.cpp.o  -o ../bin/logTest -rdynamic -L/usr/local/boost/lib -L/usr/local/lib ../lib/liblog.a -lscribe -lthrift -lfb303 -lpthread -lcetty -lboost_program_options -lboost_iostreams -Wl,-rpath,/usr/local/boost/lib:/usr/local/lib 
